@@ -1,0 +1,1 @@
+python REDItoolDnaRnav13.py -t 3 -i quant_bams/${file_name} -d -D -f reference/hg38_all.fa -o output_stranded_quant_aligned/${out_prefix} -c 0,10 -m 0,20 -q 0,30 -u -a6-0 -v 3 -N 0.0 -n 0.001 -s 2 -g 1 -S -r 4
