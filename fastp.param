@@ -1,0 +1,1 @@
+fastp -i $read1 -I $read2 --thread 40 --out1 $read1_out --out2 $read2_out --average_qual 30 --length_required=60 --dont_eval_duplication --detect_adapter_for_pe --correction --adapter_fasta adapter.fasta

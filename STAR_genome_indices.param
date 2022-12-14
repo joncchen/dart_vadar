@@ -1,0 +1,1 @@
+STAR --runThreadN 40 --runMode genomeGenerate --genomeDir ~/Documents/221205_RNAseq_analysis/reference/ --genomeFastaFiles ~/Documents/221205_RNAseq_analysis/reference/hg38_all.fa --sjdbGTFfile ~/Documents/221205_RNAseq_analysis/reference/gencode.v42.primary_assembly.annotation.gtf --sjdbOverhang 149

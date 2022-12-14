@@ -1,0 +1,1 @@
+STAR --runThreadN 10 --genomeDir ~/Documents/reference/ --readFilesIn trimmed/$read1 trimmed/$read2 --outFileNamePrefix quant_bams/${out_prefix}. --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --readFilesCommand zcat --limitBAMsortRAM 1039244124
